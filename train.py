@@ -236,7 +236,7 @@ class Star_Stance_Model():
 
         #Load the saved model
         #Sentiment Hugging Face
-        the_model = torch.load('/content/drive/MyDrive/BT_data/model2.pt', map_location=torch.device('cpu'))
+        the_model = torch.load(Modelpath+ '\\StanceModelParameters.pt', map_location=torch.device('cpu'))
 
         #Dataloader for patagonia dataset 
         gpt2_classificaiton_collator = self.Gpt2Collator(use_tokenizer=tokenizer, labels_encoder=labels_ids, max_sequence_len=max_length)
