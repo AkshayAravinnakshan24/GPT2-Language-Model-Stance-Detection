@@ -1,4 +1,4 @@
-# GPT2-Sentiment-Analysis
+# GPT2-Stance-Analysis
 ## Usage
  In this repository, I have attempted to recreate the **'pipeline architecture'** for my GPT2 model. With this architecture you can run my huge model on the CPU itself and thereby efficiency of my model.    
 ## 1. GPT2
