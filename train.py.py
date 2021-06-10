@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""StarStancePredictor.ipynb
+
 """
 
 class Star_Stance_Model():
