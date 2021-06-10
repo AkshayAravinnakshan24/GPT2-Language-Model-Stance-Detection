@@ -1,6 +1,7 @@
 # GPT2-Stance-Analysis
 ## Usage
- In this repository, I have attempted to recreate the **'pipeline architecture'** for my GPT2 model. With this architecture you can run my huge model on the CPU itself and thereby efficiency of my model.    
+1. The full code used for model training is saved in train.py. 
+2. In this repository, I have attempted to recreate the **'pipeline architecture'** for my GPT2 model. With this architecture you can run my huge model on the CPU itself and thereby efficiency of my model.    
 ## 1. GPT2
 GPT-2 is a direct scale-up of GPT, with more than 10X the parameters and trained on more than 10X the amount of data. GPT-2 is a large transformer-based language model with 1.5 billion parameters, trained on a dataset of 8 million web pages. GPT-2 is trained with a simple objective: predict the next word, given all of the previous words within some text. I have added two more dense layers to this state of art model and converted it to perform Stance classification on twitter data. 
 
